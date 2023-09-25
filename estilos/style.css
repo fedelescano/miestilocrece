@@ -26,14 +26,15 @@ main {
 
 footer{
     background-color: skyblue; 
-    padding-top:-3%;
-    padding-bottom:1%;
+    padding:2px;
+    padding-top:0%;
     margin: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:  10px; 
 }
 
 /*Barra de H1 y ENLACES */ 
+
 
 header h1{
     display: flex;
@@ -51,16 +52,18 @@ header nav {
 /*Barra de Contacto y Reclamos */ 
 
  .navbar-right{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 90%;     
+    display:block;
+    text-align: right;      
  }
 
- .navbar-right, .contacto, .reclamo {
-    margin-bottom: 50px;
-    padding-top: 10px;
+ .navbar-right, .form_control{
+   position: relative;
+   bottom: 45px;
+   font-size:9px;
+   padding-right:15px;
+
  }
+ 
 
  /*Section Presentacion */ 
 
@@ -109,12 +112,8 @@ justify-content: space-around;
 
  /*final de pagina*/
 
- .contact{
-    text-align: center;
- }
-
- .redes-sociales{
-    position: relative;
-    left: 85%;
-    top:40px;
- }
+ .final{
+   display: flex;
+   justify-content:space-around;
+      
+}
