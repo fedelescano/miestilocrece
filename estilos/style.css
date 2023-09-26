@@ -20,8 +20,17 @@ header{
 }
 
 main {
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(238, 233, 233);
     padding: 10px;
+}
+
+footer{
+    background-color: skyblue; 
+    padding-top:-3%;
+    padding-bottom:1%;
+    margin: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:  10px; 
 }
 
 /*Barra de H1 y ENLACES */ 
@@ -84,6 +93,7 @@ header nav {
     border-style: solid;
     padding: 5px;
     margin: 5px;
+    text-align:center;
  }
  .cards img {
     max-width:100%; 
@@ -96,3 +106,15 @@ header nav {
 display: flex;
 justify-content: space-around;
 }
+
+ /*final de pagina*/
+
+ .contact{
+    text-align: center;
+ }
+
+ .redes-sociales{
+    position: relative;
+    left: 85%;
+    top:40px;
+ }
