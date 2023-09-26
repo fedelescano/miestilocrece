@@ -11,17 +11,17 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    background-color: rgb(15, 177, 15);
+    background-color: skyblue;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top:2%;
     padding-bottom: 2%;
+    margin: 20px;    
 }
 
 main {
     background-color: rgb(241, 237, 237);
     padding: 10px;
-
 }
 
 /*Barra de H1 y ENLACES */ 
@@ -38,6 +38,7 @@ header nav {
     justify-content:center;
     gap:50px;
 }
+
 /*Barra de Contacto y Reclamos */ 
 
  .navbar-right{
@@ -72,11 +73,10 @@ header nav {
  
  /*Section tarjetas (cards)*/
 
-.cards-inf .cards{
+.cards-inf .cards {
     display: grid;
-    grid-template-columns:25% 25%;
-    justify-content:left;
-    
+    grid-template-columns:25% 25% 25% 25%;
+            
 }
  .card-familia, .card-viajes, .card-deporte, .card-descanso{
     background-color: white;
@@ -85,20 +85,14 @@ header nav {
     padding: 5px;
     margin: 5px;
  }
-
+ .cards img {
+    max-width:100%; 
+    height: 30%;
+ }
+  
  /*Section Destacados*/
 
- .informes{
-    display:grid;
-    grid-template-columns: 30%;
-    justify-content: right;
-    margin-top: 50px;
-
- }
-
- .destacados{
-    background-color: white;
-    border-color: gray;
-    border-style: solid;
-
- }
+.informes {
+display: flex;
+justify-content: space-around;
+}
