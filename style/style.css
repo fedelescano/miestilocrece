@@ -16,7 +16,8 @@ header{
     border-top-right-radius: 10px;
     padding-top:2%;
     padding-bottom: 2%;
-    margin: 20px;    
+    margin: 20px;
+        
 }
 
 main {
@@ -49,22 +50,6 @@ header nav {
     gap:50px;
 }
 
-/*Barra de Contacto y Reclamos */ 
-
- .navbar-right{
-    display:block;
-    text-align: right;      
- }
-
- .navbar-right, .form_control{
-   position: relative;
-   bottom: 45px;
-   font-size:9px;
-   padding-right:15px;
-
- }
- 
-
  /*Section Presentacion */ 
 
  .Presentacion{
@@ -87,10 +72,10 @@ header nav {
 
 .cards-inf .cards {
     display: grid;
-    grid-template-columns:25% 25% 25% 25%;
+    grid-template-columns:33% 33% 33%;
             
 }
- .card-familia, .card-viajes, .card-deporte, .card-descanso{
+ .card-familia, .card-viajes, .card-deporte{
     background-color: white;
     border-color: gray;
     border-style: solid;
