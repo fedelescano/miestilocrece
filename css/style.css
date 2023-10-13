@@ -1,3 +1,8 @@
+@font-face{
+    font-family:"Monday Rain";
+    src: url(../fuentes/Monday\ Rain.otf);
+}
+
 a {
     text-decoration: none;
 }
@@ -105,6 +110,17 @@ justify-content: space-around;
 
 
 
-/*CONTACTO*/
+/*GALERIA*/
 
-/* Estilos para el contenedor principal */
+.galeria, .titulo-multimedia{
+    text-align: center;
+    font-family:'Monday Rain';
+}
+.video1, .video2, .video3{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    border: 2px solid black;    
+}
