@@ -2,6 +2,10 @@
     font-family:"Monday Rain";
     src: url(../fuentes/Monday\ Rain.otf);
 }
+@font-face {
+    font-family: "Hip Horay";
+    src: url(../fuentes/Hip\ Horay.otf);
+}
 
 a {
     text-decoration: none;
@@ -45,7 +49,7 @@ footer{
 header h1{
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Hip Horay;
     margin-bottom:50px;
 }
 
@@ -122,5 +126,54 @@ justify-content: space-around;
     text-align: center;
     margin-top: 40px;
     margin-left: 90px;
-    border: 2px solid black;    
+    border: 2px solid black; 
+    border-radius: 10px;   
 }
+
+.titulo-imagenes{
+    margin-top:50px;
+}
+.galeria, .img{
+    text-align: center;
+    font-family:'Monday Rain';   
+}
+
+.img1gal, .img2gal, .img3gal{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+
+/*CONTACTO*/
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.contenedor-contacto, .contacto{
+    width: 40%;
+    margin-left:5%;
+}
+
+.contenedor-registro{
+    margin-right: 10%;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+
+
