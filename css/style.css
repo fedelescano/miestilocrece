@@ -112,8 +112,6 @@ justify-content: space-around;
       
 }
 
-
-
 /*GALERIA*/
 
 .galeria, .titulo-multimedia{
@@ -160,8 +158,11 @@ justify-content: space-around;
 .contenedor-contacto, .contacto{
     width: 40%;
     margin-left:5%;
+    
 }
-
+.contacto-titulo, .datos-titulo{
+    font-family:'Monday Rain';
+}
 .contenedor-registro{
     margin-right: 10%;
     margin-top: 5px;
@@ -170,9 +171,8 @@ justify-content: space-around;
 
 .form-control {
     width: 100%;
-    padding: 15px;
-     
+    padding: 15px;     
 }
 
-
+/*NOVEDADES*/
 
