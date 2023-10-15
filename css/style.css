@@ -176,3 +176,15 @@ justify-content: space-around;
 
 /*NOVEDADES*/
 
+.noticias-destacadas{
+    width: 40%;
+    margin-top:5%;
+}
+
+.img-maps{
+    position: relative;
+    left: 60%;
+    bottom: 150px;
+    width: 500px;
+    height: 300px; 
+}
