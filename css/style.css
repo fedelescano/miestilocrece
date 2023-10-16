@@ -80,9 +80,8 @@ header nav {
  /*Section tarjetas (cards)*/
 
 .cards-inf .cards {
-    display: grid;
-    grid-template-columns:33% 33% 33%;
-            
+    display: flex;
+        
 }
  .card-familia, .card-viajes, .card-deporte{
     background-color: white;
@@ -187,4 +186,21 @@ justify-content: space-around;
     bottom: 150px;
     width: 500px;
     height: 300px; 
+}
+
+/*TURISMO*/
+
+.cards-turismo, .cards{
+    display:flex;
+    flex-wrap:wrap; 
+    height: 40px;  
+}
+
+.cards-turismo, .cards, p{
+    width:%;
+}
+
+.card-irlanda, .card-escocia, .card-china,
+.card-argentina, .card-brasil, .card-eeuu{
+        
 }
