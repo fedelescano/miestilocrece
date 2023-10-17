@@ -47,69 +47,118 @@ footer{
 
 
 header h1{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family:Hip Horay;
     margin-bottom:50px;
 }
 
 header nav {
-    display: flex;
-    justify-content:center;
+    text-align: center;
+    word-spacing:50px;
     gap:50px;
 }
 
  /*Section Presentacion */ 
 
  .Presentacion{
-    display: flex;
-    justify-content: center;
+    text-align: center;
  }
  .acerca-de {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    position: relative;
     background-color: white;
-    padding: 5px;
+    padding: 10%;
     margin: 40px;   
  }
-
- .parrafo{
-    padding: 20px;
+ 
+ .parrafo1{
+    position: absolute;
+    width: 30%;
+    left:5%;
+    bottom:20%;
+    text-align: center;
+    
  }
+
+ .parrafo2{
+    position: absolute;
+    width: 30%;
+    left: 60%;
+    bottom:20%;
+    text-align: center; 
+ }
+
  
  /*Section tarjetas (cards)*/
 
-.cards-inf .cards {
-    display: flex;
-        
+.cards-inf {
+    position: relative;
+    margin-bottom:45%;
+               
 }
- .card-familia, .card-viajes, .card-deporte{
+ .card-familia{
+    position: absolute;
+    width:25%;
+    height:300px;
     background-color: white;
     border-color: gray;
     border-style: solid;
-    padding: 5px;
-    margin: 5px;
-    text-align:center;
+    left: 70%;
+
  }
+ .card-viajes{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left:39%;
+ }
+
+ .card-deporte{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left:5%;
+ }
+
  .cards img {
-    max-width:100%; 
     height: 30%;
+    margin-left:55px;
+ }
+
+ .titulos-info{
+    text-align: center;
  }
   
  /*Section Destacados*/
 
 .informes {
-display: flex;
-justify-content: space-around;
+    position: relative;  
+}
+
+.destacados1 {
+    position: absolute;
+    left: 10%;
+    bottom:70px;   
+}
+
+.destacados2 {
+    position: absolute;
+    left: 70%;
+    bottom:100px;
 }
 
  /*final de pagina*/
 
  .final{
    display: flex;
-   justify-content:space-around;
-      
+   justify-content:space-around;      
 }
+
 
 /*GALERIA*/
 
