@@ -239,17 +239,72 @@ header nav {
 
 /*TURISMO*/
 
-.cards-turismo, .cards{
-    display:flex;
-    flex-wrap:wrap; 
-    height: 40px;  
+.cards-turismo{
+    position: relative;
+    margin-bottom:45%;
 }
 
-.cards-turismo, .cards, p{
-    width:%;
+.card-irlanda{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left: 70%;
+
+}
+.card-escocia{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left: 10%;
+
+}
+.card-china{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    top: 350px;
+
+}
+.card-argentina{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left: 70%;
+
+}
+.card-brasil{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left: 70%;
+
+}
+.card-eeuu{
+    position: absolute;
+    width:25%;
+    height:300px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    left: 70%;
 }
 
-.card-irlanda, .card-escocia, .card-china,
-.card-argentina, .card-brasil, .card-eeuu{
-        
+.cards-turismo img{
+    height: 30%;
+
 }
